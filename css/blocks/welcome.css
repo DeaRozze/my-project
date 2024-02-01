@@ -1,0 +1,59 @@
+.welcome-page-wrapper {
+  background: url(../../img/bg.png) center center no-repeat;
+  background-size: cover;
+}
+
+.main--welcome--page {
+  margin: 0 auto;
+}
+
+.welcome {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  animation: text 2s;
+}
+
+.logo--welcome--page {
+  margin-right: 0;
+}
+
+.logo__icon--welcome--page {
+  width: 279px;
+  height: 119px;
+}
+.welcome__text {
+  color: #FFF;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.welcome__active {
+  margin-top: 50px;
+}
+
+@keyframes text {
+  from {
+    opacity: 0;
+    transform: scale(0.5);
+  }
+
+  50% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  70% {
+    opacity: 1;
+    transform: scale(0.8);
+  }
+
+  to {
+    opacity: 0;
+    transform: scale(1.2);
+  }
+}
+

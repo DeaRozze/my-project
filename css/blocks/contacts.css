@@ -1,0 +1,61 @@
+address {
+  font-style: normal;
+  text-align: right;
+}
+
+a.contacts__tel {
+  display: block;
+  font-size: 26px;
+  color:#FFF;
+  font-weight: 400;
+}
+.schedule__text {
+  font-size: 13px;
+  text-decoration-line: underline;
+  color:#FFF;
+  line-height: 20px;
+  font-weight: 400;
+}
+
+.contacts__desc {
+  font-size: 11px;
+  line-height: 20px;
+  font-weight: 400;
+  color: #9A9A9A;
+  text-align: right;
+}
+
+.schedule {
+  position: relative;
+}
+
+.schedule__info {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 0.4s ;
+  right: 0;
+  padding: 20px;
+  border-radius: 5px;
+  background-color: #EDEDED;
+  margin-top: 12px;
+  color: #1E1F20;
+  font-size: 13px;
+  font-weight: 600;
+  line-height: 21px;
+}
+
+.schedule__text:hover + .schedule__info {
+  opacity: 1;
+}
+
+.schedule__info::before {
+  position: absolute;
+  bottom: 100%;
+  right: 35px;
+  content:"";
+  width: 0;
+  height: 0;
+  border: 15px solid transparent;
+  border-bottom-color:#EDEDED;
+  border-top: 0;
+}

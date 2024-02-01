@@ -1,0 +1,41 @@
+button {
+  background: transparent;
+  padding: 0;
+  border: 1px solid transparent;
+}
+
+.button {
+  background: #F5170E;
+  border-radius: 35px;
+  height: 55px;
+  width: 168px;
+  text-transform: uppercase;
+  color:#FFF;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  display: inline-block;
+  text-align: center;
+  line-height: 55px;
+}
+
+.button--border:hover { 
+  background:transparent;
+  border-color: #F5170E;
+  color:#F5170E;
+  transition: 0.7s;
+}
+
+.button--border--grey {
+  background: #2B2B2B;
+}
+
+.button--border--grey:hover {
+  transition: 0.7s;
+  background:transparent;
+  color:#2B2B2B;
+  border-color: #2B2B2B;
+}
+
+
+
